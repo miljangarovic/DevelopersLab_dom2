@@ -1,0 +1,58 @@
+body{
+    text-align: center;
+    margin: 5rem auto;
+    font-family: Montserrat;
+    background-color: #22262B;
+    color: white;
+  }
+nav{
+    display: flex;
+    justify-content: center;
+}
+nav button{
+    text-decoration: none;
+    width: 32%;
+    padding: 10px 0;
+    background-color: yellow;
+    color: black;
+    border-right: 2px solid black;
+    outline: 0;
+}
+.clock{
+    height: 300px;
+    width: 300px;
+    margin: 20px auto;
+    border: 2px solid  #22262B;
+    box-shadow: 0 0 0px 2px SkyBlue;
+}
+#grad {
+    background: -webkit-gradient(linear, top, bottom, color-stop(100%,#22262B), color-stop(40%,#00F));
+    background: -moz-linear-gradient(top center, #22262B 100%, #00F 40%);
+    background: -o-linear-gradient(top, #22262B 100%, #00F 40%);
+    background: linear-gradient(to bottom, #22262B 100%, #00F 0%);
+}
+
+
+.button{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #22262B;
+    border:0;
+}
+.button button{
+    width: 10%;
+    margin-right: 10px;
+}
+button:hover{
+    cursor: pointer;
+    position: relative;
+    top: -2px;
+}
+button{
+    font-size: 40px; 
+}
+.timer{
+    font-size: 50px;
+    margin-top: 60px;
+}
